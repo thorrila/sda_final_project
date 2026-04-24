@@ -1,0 +1,9 @@
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Jupyter scratch
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
