@@ -7,3 +7,6 @@ data/processed/*.csv
 
 # OS noise
 .DS_Store
+
+.venv/
+requirements.txt
