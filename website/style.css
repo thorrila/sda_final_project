@@ -46,3 +46,7 @@ p {
 .btn:hover {
     background: #1e40af;
 }
+#map { 
+    height: 500px; /* or 100vh for full screen */
+    width: 100%;
+}
