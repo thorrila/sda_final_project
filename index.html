@@ -31,7 +31,7 @@ Then, seemingly overnight, the city went quiet.
  When lockdowns emptied streets and shuttered businesses in spring 2020, 
  seismologists detected a 30-50% reduction in ambient vibrations.  (source)
  Yet paradoxically, during this same period, noise complaints to NYC's 311 system tripled.
-This contradiction raises critical questions. 
+Using data from the NYC Open Data portal, we analyzed noise complaints filed from 2018 til December 2025. 
  </p>
 
         <section id="complaints-over-time">
@@ -62,7 +62,11 @@ This contradiction raises critical questions.
           <p>Adjusted complaint rates highlight different borough burdens.</p>
           <iframe src="complaints_per_capita.html" width="100%" height="500" style="border:none;"></iframe>
           On average Bronx and Manhattan had the highest complaint rates per capita, 
-          while Staten Island had the lowest.
+          while Staten Island had the lowest. This could be due to a variety of factors including population
+           density, socioeconomic conditions, and the presence of noise-generating activities. 
+           This finding underscores the importance of considering demographic and geographic factors 
+           when analyzing urban soundscapes. To explore the borough 
+           specific trends in more detail, we created a plot that shows the trends over the selected time period.
         </section>
 
         <section id="borough-trends">
@@ -70,7 +74,9 @@ This contradiction raises critical questions.
           <p>Trend comparison across boroughs.</p>
           <iframe src="borough_trends.html" width="100%" height="500" style="border:none;"></iframe>
           Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
-           while Staten Island's complaint volume remained relatively stable. (EXPLAIN WHY)
+           while Staten Island's complaint volume remained relatively stable. 
+           his highlights the dynamic nature of urban soundscapes and the need for ongoing monitoring and analysis to understand 
+           the factors that contribute to noise complaints in different areas of the city.
         </section>
 
         <section id="seasonal">
@@ -85,7 +91,13 @@ behavior and outdoor gatherings.
 
         <section id="interactive-map">
           <h2>Interactive District Noise Map</h2>
-          <p>Explore complaint types within a specific era and hover for neighborhood details.</p>
+          <p>To further explore the spatial distribution of noise complaints, we created an interactive map 
+            that allows users to visualize the changes in noise complaints across different boroughs before 
+            and during the pandemic. This map provides insights into how different areas of the city were affected 
+            and can help identify hotspots of noise complaints. You can select pre, lockdown and post lockdown 
+            eras to see how noise complaints evolved across the boroughs. The map also includes 
+            filters for different types of complaints, allowing users to explore specific trends in 
+            noise-related issues.</p>
           <iframe src="interactive_noise_map.html" width="100%" height="500" style="border:none;"></iframe>
         </section>
 
