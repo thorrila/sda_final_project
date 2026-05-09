@@ -29,14 +29,14 @@ This acoustic identity was so central to the city's character that noise complai
 had become a routine fact of urban life: averaging 35,000 per month in the years leading up to the pandemic.
 Then, seemingly overnight, the city went quiet.
  When lockdowns emptied streets and shuttered businesses in spring 2020, 
- seismologists detected a 30-50% reduction in ambient vibrations.  (source)
+ seismologists detected a 30-50% reduction in ambient vibrations. (Source 2 in References)
  Yet paradoxically, during this same period, noise complaints to NYC's 311 system tripled.
-Using data from the NYC Open Data portal, we analyzed noise complaints filed from 2018 til December 2025. 
+Using data from the NYC Open Data portal (Source 1 in References), we analyzed noise complaints filed from 2018 til December 2025. 
  </p>
 
         <section id="complaints-over-time">
           <h2>How did the complaints change over time?</h2>
-          <p>Interactive plot showing complaint volume and major inflection points.</p>
+          <p>Below, you can see an interactive plot showing complaint volume and major inflection points.</p>
           <iframe src="complaints_over_time.html" width="100%" height="500" style="border:none;"></iframe>
         Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.
         </section>
@@ -59,7 +59,7 @@ Using data from the NYC Open Data portal, we analyzed noise complaints filed fro
 
         <section id="per-capita">
           <h2>Which boroughs experienced the highest noise complaint rates per capita?</h2>
-          <p>Adjusted complaint rates highlight different borough burdens.</p>
+          <p> Below you can see adjusted complaint rates highlight different borough noice levels per 1000 residents.</p>
           <iframe src="complaints_per_capita.html" width="100%" height="500" style="border:none;"></iframe>
           On average Bronx and Manhattan had the highest complaint rates per capita, 
           while Staten Island had the lowest. This could be due to a variety of factors including population
@@ -71,17 +71,17 @@ Using data from the NYC Open Data portal, we analyzed noise complaints filed fro
 
         <section id="borough-trends">
           <h2>How did borough trends changed over time?</h2>
-          <p>Trend comparison across boroughs.</p>
+          <p>Below, you can find the trend comparison across boroughs per 1000 residents.</p>
           <iframe src="borough_trends.html" width="100%" height="500" style="border:none;"></iframe>
           Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
            while Staten Island's complaint volume remained relatively stable. 
-           his highlights the dynamic nature of urban soundscapes and the need for ongoing monitoring and analysis to understand 
+           This highlights the dynamic nature of urban soundscapes and the need for ongoing monitoring and analysis to understand 
            the factors that contribute to noise complaints in different areas of the city.
         </section>
 
         <section id="seasonal">
           <h2>How did pandemic affect seasonal complaint patterns?</h2>
-          <p>Seasonal changes in complaint types and volume.</p>
+          <p>Below, you can see seasonal changes in complaint volumes pre-covid, during lockdown, and post-pandemic.</p>
           <iframe src="seasonal_share.html" width="100%" height="500" style="border:none;"></iframe>
           The graph reveals that pre-pandemic, noise complaints peaked in summer months,
 consistent with increased outdoor activity. However, post pandemic, the seasonal pattern flattened, 
@@ -129,6 +129,14 @@ behavior and outdoor gatherings.
         </section>
       </article>
     </main>
+    <section>
+      <section id="REFERENCES">
+          <h2>References</h2>
+      <ol>
+        <li>NYC Open Data: 311 Noise Complaints Dataset - <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9" target="_blank">https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9</a></li>
+        <li>Seismological Research Letters: "The Quieting of New York City During the COVID-19 Pandemic" - <a href="https://www.science.org/doi/abs/10.1126/science.abd2438" target="_blank">https://www.science.org/doi/abs/10.1126/science.abd2438</a></li>   
+      </ol>
+    </section>
 
     <footer>
       <p>&copy; 2026 Noise and Cities Project — Data from NYC Open Data</p>
