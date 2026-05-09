@@ -129,6 +129,14 @@ section{
   scroll-margin-top:20px;
 }
 
+.body-text{
+  color:var(--text) !important;
+  font-style:normal !important;
+  font-size:1rem !important;
+  margin:0 0 12px 0;
+  line-height:1.6;
+}
+
 section#overview .card p{margin:0}
 
 p{color:var(--muted);line-height:1.6;margin:0}
