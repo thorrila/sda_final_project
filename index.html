@@ -17,12 +17,25 @@
     <header>
       <h1>The Quiet Crisis: How COVID-19 Exposed New York City's Hidden Noise Inequality</h1>
     </header>
+    <p class="subtitle">A data analysis of New York City's 311 noise complaints, 2018–2025</p>
+    <nav class="toc">
+      <a href="#overview">Motivation</a>
+      <a href="#complaints-over-time">Over time</a>
+      <a href="#types-of-complaints">By type</a>
+      <a href="#daily-patterns">By day</a>
+      <a href="#per-capita">Per capita</a>
+      <a href="#borough-trends">Borough trends</a>
+      <a href="#seasonal">Seasonal</a>
+      <a href="#interactive-map">District map</a>
+      <a href="#neighborhood-comparison">Neighborhoods</a>
+      <a href="#takeaways">Takeaways</a>
+    </nav>
+
 
     <main>
       <article>
         <section id="overview">
           <h2>Motivation</h2>
-          <p>
           Before March 2020, New York City's soundscape was defined by its relentless energy: traffic rumble, 
 construction noise, subway screeches, and the ambient hum of 8.3 million people in motion. 
 This acoustic identity was so central to the city's character that noise complaints 
@@ -32,74 +45,74 @@ Then, seemingly overnight, the city went quiet.
  seismologists detected a 30-50% reduction in ambient vibrations. (Source 2 in References)
  Yet paradoxically, during this same period, noise complaints to NYC's 311 system tripled.
 Using data from the NYC Open Data portal (Source 1 in References), we analyzed noise complaints filed from 2018 till December 2025. 
- </p>
+
 
         <section id="complaints-over-time">
           <h2>How did the complaints change over time?</h2>
           <p>Below, you can see an interactive plot showing complaint volume and major inflection points.</p>
           <iframe src="complaints_over_time.html" width="100%" height="500" style="border:none;"></iframe>
-        Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.
+        <p class="caption">Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.</p>
         </section>
 
         <section id="types-of-complaints">
           <h2>What types of complaints were the most common across periods?</h2>
           <p>Distribution of complaint types (construction, loud music, residential, etc.) pre-Covid, lockdown and Post-COVID.</p>
           <iframe src="types_of_complaints.html" width="100%" height="500" style="border:none;"></iframe>
-          Notice how Street/sidewalk noise complaints surged during lockdown, 
-          while vehicle noise complaints declined, reflecting the shift in urban activity patterns.
+          <p class="caption">Notice how Street/sidewalk noise complaints surged during lockdown,
+          while vehicle noise complaints declined, reflecting the shift in urban activity patterns. </p>
         </section>
 
         <section id="daily-patterns">
           <h2>How did the pandemic change day distribution patterns?</h2>
           <iframe src="daily_patterns.html" width="100%" height="500" style="border:none;"></iframe>
-          The graph reveals that pre-pandemic, noise complaints peaked on weekends and evenings,
+          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked on weekends and evenings,
           consistent with nightlife and social activity. However, during and post lockdown 
-          the pattern intensified.
+          the pattern intensified.</p>
         </section>
 
         <section id="per-capita">
           <h2>Which boroughs experienced the highest noise complaint rates per capita?</h2>
-          <p> Below you can see adjusted complaint rates highlight different borough noise levels per 1000 residents.</p>
+          <p> Below, you can see adjusted complaint rates highlight different borough noise levels per 1000 residents.</p>
           <iframe src="complaints_per_capita.html" width="100%" height="500" style="border:none;"></iframe>
-          On average Bronx and Manhattan had the highest complaint rates per capita, 
+          <p class="caption">On average Bronx and Manhattan had the highest complaint rates per capita, 
           while Staten Island had the lowest. This could be due to a variety of factors including population
            density, socioeconomic conditions, and the presence of noise-generating activities. 
            This finding underscores the importance of considering demographic and geographic factors 
            when analyzing urban soundscapes. To explore the borough 
-           specific trends in more detail, we created a plot that shows the trends over the selected time period.
+           specific trends in more detail, we created a plot that shows the trends over the selected time period.</p>
         </section>
 
         <section id="borough-trends">
           <h2>How did borough trends change over time?</h2>
           <p>Below, you can find the trend comparison across boroughs per 1000 residents.</p>
           <iframe src="borough_trends.html" width="100%" height="500" style="border:none;"></iframe>
-          Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
+          <p class="caption">Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
            while Staten Island's complaint volume remained relatively stable. 
            This highlights the dynamic nature of urban soundscapes and the need for ongoing monitoring and analysis to understand 
-           the factors that contribute to noise complaints in different areas of the city.
+           the factors that contribute to noise complaints in different areas of the city.</p>
         </section>
 
         <section id="seasonal">
           <h2>How did the pandemic affect seasonal complaint patterns?</h2>
           <p>Below, you can see seasonal changes in complaint volumes pre-covid, during lockdown, and post-pandemic.</p>
           <iframe src="seasonal_share.html" width="100%" height="500" style="border:none;"></iframe>
-          The graph reveals that pre-pandemic, noise complaints peaked in summer months,
+          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked in summer months,
 consistent with increased outdoor activity. However, post pandemic, the seasonal pattern flattened, 
 with summer and fall exhibiting similar complaint volumes, likely reflecting changes in social 
-behavior and outdoor gatherings.
+behavior and outdoor gatherings. </p>
         </section>
 
         <section id="interactive-map">
           <h2>Interactive District Noise Map</h2>
-          <p>To further explore the spatial distribution of noise complaints, we created an interactive map 
+          To further explore the spatial distribution of noise complaints, we created an interactive map 
             that allows users to visualize the changes in noise complaints across different boroughs before 
             and during the pandemic. This map provides insights into how different areas of the city were affected 
             and can help identify hotspots of noise complaints. You can select pre, lockdown and post lockdown 
             eras to see how noise complaints evolved across the boroughs. The map also includes 
             filters for different types of complaints, allowing users to explore specific trends in 
-            noise-related issues.</p>
+            noise-related issues.
           <iframe src="interactive_noise_map.html" width="100%" height="500" style="border:none;"></iframe>
-             Fun observation, try to select Loud Music/Party and then compare Bronx before, during and after Covid. Notice how the area became the party place since pandemic, maybe some local New Yorkers could tell us if this is the party place! 
+          <p class="caption">Fun observation, try selecting Loud Music/Party and then compare Bronx before, during and after Covid. Notice how the area became the party place since pandemic, maybe some local New Yorkers could tell us if this is the party place! </p>
         </section>
 
         <section id="neighborhood-comparison">
@@ -110,13 +123,13 @@ behavior and outdoor gatherings.
          in different areas of the city, allowing users to understand the unique challenges
           faced by each neighborhood and to identify potential solutions for addressing these issues.
         When you hover over a neighborhood, you can see detailed information about the most common complaints 
-        in that area.</p>
+        in that area.
           <iframe src="neighborhood_comparison.html" width="100%" height="500" style="border:none;"></iframe>
         </section>
 
         <section id="takeaways">
           <h2>Takeaways</h2>
-          This analysis examines how the COVID-19 pandemic fundamentally altered New York City's 
+         This analysis examines how the COVID-19 pandemic fundamentally altered New York City's 
       acoustic environment through the lens of 311 noise complaints from 2018-2025. 
       Contrary to expectations that lockdowns would create a quieter city, 
       we find that noise complaints surged by 143% during peak lockdown months, 
@@ -126,7 +139,7 @@ behavior and outdoor gatherings.
       commercial noise sources declined. This study illuminates how pandemic-era 
       behavioral changes, e.g. increased remote work, residential density pressures, 
       and altered social patterns transformed urban soundscapes in ways 
-      that persist into the post-pandemic period.
+      that persist into the post-pandemic period. 
         </section>
       </article>
     </main>
