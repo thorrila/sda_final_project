@@ -1,3 +1,0 @@
-We are using the Magazine Style genre. This is the right fit because it allows us to combine a strong, engaging editorial narrative (text) with highly interactive, standalone visualizations (like a map) that the reader can explore at their own pace.
-
-Which Visualization to Mock Up Mock up the Interactive District Noise Map. Draw or design a map of NYC divided by districts, color-coded by the dominant noise complaint type in that area. Add a mock "tooltip" showing what happens when a user hovers over a neighborhood (e.g., showing a mini bar chart of noise types for that specific district).
