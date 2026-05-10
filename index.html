@@ -20,12 +20,12 @@
     <p class="subtitle">A data analysis of New York City's 311 noise complaints, 2018–2025</p>
     <nav class="toc">
       <a href="#overview">Motivation</a>
-      <a href="#complaints-over-time">Over time</a>
-      <a href="#types-of-complaints">By type</a>
-      <a href="#daily-patterns">By day</a>
+      <a href="#complaints-over-time">Complaints over time</a>
+      <a href="#types-of-complaints">Types of complaints</a>
+      <a href="#seasonal">Seasonal patterns</a>
+      <a href="#daily-patterns">Daily patterns</a>
       <a href="#per-capita">Per capita</a> 
       <a href="#borough-trends">Borough trends</a>
-      <a href="#seasonal">Seasonal</a>
       <a href="#interactive-map">District map</a>
       <a href="#neighborhood-comparison">Neighborhoods</a>
       <a href="#takeaways">Takeaways</a>
@@ -55,17 +55,7 @@ Using data from the NYC Open Data portal (Source 1 in References), we analyzed n
         <p class="caption">Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.</p>
         </section>
 
-        <section id="seasonal">
-          <h2>How did the pandemic affect seasonal complaint patterns?</h2>
-          <p>Below, you can see seasonal changes in complaint volumes pre-covid, during lockdown, and post-pandemic.</p>
-          <div class="chart-wrap"> 
-          <iframe src="seasonal_share.html" width="100%" height="500" style="border:none;"></iframe>
-          </div>
-          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked in summer months,
-consistent with increased outdoor activity. However, post pandemic, the seasonal pattern flattened, 
-with summer and fall exhibiting similar complaint volumes, likely reflecting changes in social 
-behavior and outdoor gatherings. </p>
-        </section>
+       
 
         <section id="types-of-complaints">
           <h2>What types of complaints were the most common across periods?</h2>
@@ -75,6 +65,18 @@ behavior and outdoor gatherings. </p>
           </div>
           <p class="caption">Notice how Street/sidewalk noise complaints surged during lockdown,
           while vehicle noise complaints declined, reflecting the shift in urban activity patterns. </p>
+        </section>
+
+         <section id="seasonal">
+          <h2>How did the pandemic affect seasonal complaint patterns?</h2>
+          <p>Below, you can see seasonal changes in complaint volumes pre-covid, during lockdown, and post-pandemic.</p>
+          <div class="chart-wrap"> 
+          <iframe src="seasonal_share.html" width="100%" height="500" style="border:none;"></iframe>
+          </div>
+          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked in summer months,
+consistent with increased outdoor activity. However, post pandemic, the seasonal pattern flattened, 
+with summer and fall exhibiting similar complaint volumes, likely reflecting changes in social 
+behavior and outdoor gatherings. </p>
         </section>
 
         <section id="daily-patterns">
