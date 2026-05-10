@@ -17,7 +17,7 @@ body{
     margin:0;
     font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
     color:var(--text);
-    background:linear-gradient(180deg,var(--bg-0),#eef3f8 60%);
+    background:var(--bg-0);
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
 }
@@ -198,6 +198,27 @@ footer{margin-top:20px;color:var(--muted);font-size:.9rem;text-align:center}
 @media (prefers-color-scheme:dark){
     :root{--bg-0:#071124;--bg-1:#071124;--muted:#9aa6b2;--text:#e6eef6;--card-shadow:0 8px 30px rgba(2,6,23,0.6)}
     body{background:linear-gradient(180deg,#031021,#071124)}
+}
+
+/* Light mode adjustments */
+@media (prefers-color-scheme:light){
+  section{
+    background:rgba(0,0,0,0.02);
+    border:1px solid rgba(0,0,0,0.06);
+  }
+  section:hover{
+    background:rgba(0,0,0,0.04);
+  }
+  .toc{
+    background:rgba(0,0,0,0.03);
+    border:1px solid rgba(0,0,0,0.08);
+  }
+  .toc a{
+    color:var(--text);  /* dark text instead of white */
+  }
+  .toc a:hover{
+    background:rgba(37,99,235,0.08);
+  }
 }
 
 .muted{color:var(--muted)}
