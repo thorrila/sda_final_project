@@ -52,8 +52,11 @@ Using data from the NYC Open Data portal (Source 1 in References), we analyzed n
           <div class="chart-wrap"> 
           <iframe src="complaints_over_time.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-        <p class="caption">Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.</p>
-        </section>
+        <!-- <p class="caption">Notice the sharp spike in complaints starting in March 2020, coinciding with the onset of lockdowns, and how complaint patterns evolved through subsequent waves and reopening phases.</p> -->
+        <p class="body-text">That sharp spike in March 2020 shows the exact moment the lockdowns hit. But as you follow the line through the different waves and reopening phases, a bigger story emerges.
+    While the absolute peak tripled the usual numbers, we found that the average monthly complaints during the main lockdown period rose by 85%.
+    The most surprising part? It never went back to normal. Look at the right side of the graph: even five years later, in 2025, the number of complaints is still about 68% higher than the old 2018 baseline. It seems the pandemic permanently changed New Yorkers' relationship with noise; they are now much more likely to report it than they ever were before.</p>
+      </section>
 
        
 
@@ -63,8 +66,13 @@ Using data from the NYC Open Data portal (Source 1 in References), we analyzed n
           <div class="chart-wrap"> 
           <iframe src="types_of_complaints.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-          <p class="caption">Notice how Street/sidewalk noise complaints surged during lockdown,
-          while vehicle noise complaints declined, reflecting the shift in urban activity patterns. </p>
+          <!-- <p class="caption">Notice how Street/sidewalk noise complaints surged during lockdown,
+          while vehicle noise complaints declined, reflecting the shift in urban activity patterns. </p> -->
+          <p class="body-text">You might expect a massive shift in what New Yorkers were complaining about during the lockdown. With everyone trapped inside, wouldn't neighbor complaints completely take over? Surprisingly, the big picture stayed exactly the same. Residential noise was still the undisputed champion, making up about half of all 311 calls, just as it did before the pandemic.
+
+Instead of a total reshuffle, the changes happened in the margins, and they perfectly mirrored the city's new "lockdown lifestyle." As socializing and dining were pushed outside, complaints about street and sidewalk noise noticeably expanded. At the exact same time, commercial noise complaints predictably shrank as bars, clubs, and indoor venues shuttered their doors.
+
+But the most unique change happened up in the sky. In the summer of 2020, helicopter complaints briefly spiked as police monitored the historic Black Lives Matter protests from above. The biggest surge, however, actually happened after the lockdowns. As the city reopened, tourist helicopters and private commuter flights returned to the skies. Because New Yorkers had grown used to a quieter city, their tolerance for these non-essential flights plummeted, causing aerial complaints to stay incredibly high for years.</p>
         </section>
 
          <section id="seasonal">
@@ -73,10 +81,15 @@ Using data from the NYC Open Data portal (Source 1 in References), we analyzed n
           <div class="chart-wrap"> 
           <iframe src="seasonal_share.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked in summer months,
+          <!-- <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked in summer months,
 consistent with increased outdoor activity. However, post pandemic, the seasonal pattern flattened, 
 with summer and fall exhibiting similar complaint volumes, likely reflecting changes in social 
-behavior and outdoor gatherings. </p>
+behavior and outdoor gatherings. </p> -->
+          <p class="body-text">The data shows a clear seasonal curve that is naturally driven by warm weather, but breaking it down by different eras reveals how the pandemic temporarily hijacked this rhythm.
+
+If you look at the lockdown era in the chart, you can see how this warm-weather trend was massively exaggerated. An unusually high share of all complaints during that time—over 65% combined—were squeezed directly into just the spring and summer months, while winter complaints plummeted.
+
+This dramatic visual shift perfectly captures the unique reality of 2020. The initial spring lockdowns quickly gave way to a summer where New Yorkers, desperate to finally leave their apartments, were forced to socialize almost exclusively outdoors.</p>
         </section>
 
         <section id="daily-patterns">
@@ -84,9 +97,14 @@ behavior and outdoor gatherings. </p>
           <div class="chart-wrap"> 
           <iframe src="daily_patterns.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-          <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked on weekends and evenings,
+          <!-- <p class="caption">The graph reveals that pre-pandemic, noise complaints peaked on weekends and evenings,
           consistent with nightlife and social activity. However, during and post lockdown 
-          the pattern intensified.</p>
+          the pattern intensified.</p> -->
+          <p class="body-text">When do New Yorkers complain the most? If you look at the weekly patterns, the city has a very clear rhythm. Both before and after the pandemic, the loudest times were exactly when you might expect: late at night on the weekends. The hours between midnight and 3:00 AM on Fridays and Saturdays see over three times as many complaints as a normal weekday night.
+
+What the pandemic did change was the sheer volume of those complaints. The shape of the week stayed exactly the same, but the numbers shot up. Before COVID, that late-night weekend peak hovered around 290 complaints. During the lockdown, it nearly doubled to 520.
+
+Today, that post-COVID weekend peak has settled at around 400. It proves something fascinating about the city's new baseline: the pandemic didn't change when New Yorkers lose their patience. It just permanently turned up the dial on how many of them will actually pick up the phone to report it.</p>
         </section>
 
         <section id="per-capita">
@@ -95,13 +113,13 @@ behavior and outdoor gatherings. </p>
           <div class="chart-wrap"> 
           <iframe src="complaints_per_capita.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-          <p class="caption">On average Bronx and Manhattan had the highest complaint rates per capita, 
+          <p class="body-text">On average Bronx and Manhattan had the highest complaint rates per capita, 
           while Staten Island had the lowest. This could be due to a variety of factors including population
            density, socioeconomic conditions, and the presence of noise-generating activities. 
            This finding underscores the importance of considering demographic and geographic factors 
            when analyzing urban soundscapes. To explore the borough 
            specific trends in more detail, we created a plot that shows the trends over the selected time period.</p>
-        </section>
+          </section>
 
         <section id="borough-trends">
           <h2>How did borough trends change over time?</h2>
@@ -109,11 +127,16 @@ behavior and outdoor gatherings. </p>
           <div class="chart-wrap"> 
           <iframe src="borough_trends.html" width="100%" height="500" style="border:none;"></iframe>
           </div>
-          <p class="caption">Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
+          <!-- <p class="caption">Notice how the Bronx and Manhattan experienced the most dramatic increases in complaints during lockdown,
            while Staten Island's complaint volume remained relatively stable. 
            This highlights the dynamic nature of urban soundscapes and the need for ongoing monitoring and analysis to understand 
-           the factors that contribute to noise complaints in different areas of the city.</p>
-        </section>
+           the factors that contribute to noise complaints in different areas of the city.</p> -->
+          <p class="body-text">Before the world shut down in 2020, the battle for the loudest borough was actually a tight race. If you look at the early years on the chart, Manhattan was frequently the noisiest spot in the city per capita, regularly trading the number-one rank with the Bronx depending on the month. The city's acoustic hierarchy felt relatively balanced.
+
+The pandemic completely fractured that pattern. Starting in 2020, the Bronx began experiencing massive, disproportionate surges in noise complaints the moment the weather warmed up. While every borough naturally gets a little louder in the summer, the Bronx's peaks became explosive. During these warm-weather months, the borough's complaints frequently rocket past 30 for every 1,000 residents. This dramatic seasonal spike far exceeds the summer bumps seen anywhere else in the city and is the primary reason the Bronx now dominates the overall charts.
+
+Meanwhile, the rest of the city tells a much calmer story. If you look toward the bottom of the graph, Brooklyn, Queens, and Staten Island remain tightly grouped together year after year. Instead of explosive summer surges, these three boroughs follow a much gentler, highly predictable wave that rises and falls quietly with the changing seasons.</p>
+          </section>
 
 
         <section id="interactive-map">
@@ -169,6 +192,10 @@ behavior and outdoor gatherings. </p>
         <li>Seismological Research Letters: "The Quieting of New York City During the COVID-19 Pandemic" - <a href="https://www.science.org/doi/abs/10.1126/science.abd2438" target="_blank">link</a></li>   
       </ol>
     </section>
+
+    <p class="body-text">
+      Explainer notebook: <a href="https://github.com/thorrila/sda_final_project/blob/main/notebook/notebook_light.ipynb" target="_blank">link</a>
+    </p>
 
     <footer>
       <p>&copy; 2026 Noise and Cities Project — Data from NYC Open Data</p>
