@@ -155,5 +155,16 @@ behavior and outdoor gatherings. </p>
       <p>&copy; 2026 Noise and Cities Project — Data from NYC Open Data</p>
     </footer>
   </div>
+
+  <script>
+document.querySelectorAll('section[id] h2').forEach(h => {
+  h.style.cursor = 'pointer';
+  h.addEventListener('click', () => {
+    const s = h.closest('section');
+    s.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    history.replaceState(null, '', '#' + s.id);
+  });
+});
+</script>
 </body>
 </html>

@@ -54,6 +54,14 @@ header h1{
   font-weight:400;
 }
 
+section h2{
+  transition:color 0.35s ease, transform 0.35s ease;
+  cursor:pointer;
+}
+section h2:hover{
+  color:var(--accent);
+}
+
 section h2 + p{
   font-style:italic;
   font-size:0.95rem;
@@ -126,7 +134,17 @@ main article{display:grid;grid-template-columns:1fr;gap:18px}
 }
 
 section{
+  background:rgba(255,255,255,0.02);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:var(--radius);
+  padding:32px;
+  margin-bottom:24px;
+  transition:transform 0.2s ease, background 0.2s ease;
   scroll-margin-top:20px;
+}
+section:hover{
+  transform:translateY(-2px);
+  background:rgba(255,255,255,0.04);
 }
 
 .body-text{
