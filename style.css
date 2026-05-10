@@ -85,6 +85,7 @@ nav a{
 nav a:hover{background:rgba(37,99,235,0.08)}
 
 .toc{
+  counter-reset:toc;
   position:fixed;
   top:290px;
   left:24px;
@@ -97,7 +98,13 @@ nav a:hover{background:rgba(37,99,235,0.08)}
   border:1px solid rgba(255,255,255,0.06);
   border-radius:var(--radius);
   z-index:100;
-  max-width:160px;
+  max-width:200px;
+}
+.toc a::before{
+  counter-increment:toc;
+  content:counter(toc) ". ";
+  opacity:0.5;
+  margin-right:4px;
 }
 .toc a{
   color:#fff;
